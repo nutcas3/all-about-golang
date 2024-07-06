@@ -7,3 +7,9 @@ import (
     "net/http"
     "github.com/pquerna/otp/totp"
 )
+
+type User struct {
+    Username string
+    Password string
+    Secret   string
+}
